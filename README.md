@@ -34,36 +34,36 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-1 Type the programe in Quartus software.
-2 Compile and run the programe
-3 Generate thr RTL schematic and save the logic diagram.
-4 Create nodes for inputs and outputs to generate the timing diagram.
-5 For different input cominations generate the timing diagram.
+ 1 Type the programe in Quartus software.
+ 2 Compile and run the programe
+ 3 Generate thr RTL schematic and save the logic diagram.
+ 4 Create nodes for inputs and outputs to generate the timing diagram.
+ 5 For different input cominations generate the timing diagram.
 
 
 **PROGRAM**
 
-module sr_ff(s,r,clk,q,qbar);
-input s,r,clk;
-output reg q;
-output reg qbar;
-initial 
-begin
-q=0;
-qbar=1;
-end
-always @(posedge clk)
-begin
-   q=s|(~r&q);
-   qbar=r|(~s&~q);
-end
-endmodule
+ module sr_ff(s,r,clk,q,qbar);
+ input s,r,clk;
+ output reg q;
+ output reg qbar;
+ initial 
+ begin
+ q=0;
+ qbar=1;
+ end
+ always @(posedge clk)
+ begin
+    q=s|(~r&q);
+    qbar=r|(~s&~q);
+ end
+ endmodule
 
 
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
-Developed by: S.Yogesh 
-RegisterNumber: 24001573
+ Developed by: S.Yogesh 
+ RegisterNumber: 24001573
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
