@@ -1,4 +1,6 @@
-# SR-FLIPFLOP-USING-CASE
+### NAME:PRANAV S
+### REG NO:24900037
+### EXPERIMENT: SR-FLIPFLOP-USING-CASE
 
 **AIM:**
 
@@ -61,10 +63,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
- Developed by: S.Yogesh 
- RegisterNumber: 24001573
-*/
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
